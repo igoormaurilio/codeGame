@@ -1,3 +1,7 @@
+@media (min-width: 1024px) {
+
+
+
 body{
     background-color: #1e1e1e;
 }
@@ -24,8 +28,6 @@ body{
     margin: 30px;
     
     
-    
-    
 }
 h1.titulo{
     margin: 0 ;
@@ -35,7 +37,6 @@ h1.titulo{
     align-items: center;
     font-family: "Inria Serif", serif;
     margin-left: 30px;
-  
 
 }
 h2.catalogo{
@@ -46,6 +47,7 @@ h2.catalogo{
     margin-top: 50px;
     margin: 70px;
     font-size: 40px;
+    
 }
 
 .botaoCadastrar{
@@ -56,9 +58,14 @@ h2.catalogo{
     background-color: #30B5F7; 
     border-radius: 10px ;
     font-size: 24px;
-    
+    margin-left: 1000px;
     
 }
+#conteudo{
+    display: grid;
+    grid-template-columns: auto auto; 
+    align-items: center;
+ 
+}
 
-
-
+}
